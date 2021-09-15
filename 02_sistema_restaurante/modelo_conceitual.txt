@@ -1,0 +1,14 @@
+Mesa: id (PK), capacidade, numero, status, comanda, cliente
+
+Comanda: id (PK), produtos, valor_total, ativa, mesa
+
+Cliente: id (PK), nome
+
+Prato: id (PK), descricao, preco
+
+Reserva: id (PK), data_reserva, cliente
+
+Pagamento: id (PK), comanda, reserva, cliente,
+operador, data_pagamento, valor_pago
+
+Bebida: id (PK), descricao, preco
