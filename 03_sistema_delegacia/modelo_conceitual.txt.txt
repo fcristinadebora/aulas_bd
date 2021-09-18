@@ -1,0 +1,8 @@
+Criminoso: Id (pk), nome, data de nascimento, endereço, cpf
+
+Crime: Id (pk), data_hora, endereço, codigo penal, criminoso,
+vitima, arma
+
+Vitima: Id (pk), nome, cpf, endereço
+
+Arma: Id (pk), modelo, marca, tipo, descricao
